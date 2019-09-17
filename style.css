@@ -35,7 +35,7 @@ form button {
   height: 2rem;
 }
 
-#formAddButton {
+#addNote {
   width: 7rem;
   background-color: #8902FF;
   color: #fff;
@@ -45,14 +45,14 @@ form button {
   -webkit-transition: background-color .2s ease-in-out;
 }
 
-#formAddButton:hover {
+#addNote:hover {
   cursor: pointer;
   background-color: #e600e6;
 }
 
 
 /* Note Styles */
-#notes {
+#noteList {
   display: flex;
   flex-wrap: wrap;
   padding-top: 2rem;
@@ -97,6 +97,10 @@ form button {
 }
 .note.yellow::after {
   background-color: gold;
+}
+
+.note.grey::after {
+  background-color: grey;
 }
 
 .note span {
